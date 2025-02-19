@@ -33,7 +33,8 @@ export const InputCode = ({ code, onCodeChange }) => {
               label: "console.log",
               kind: monaco.languages.CompletionItemKind.Function,
               insertText: "console.log(${1});",
-              insertTextRules: monaco.languages.CompletionItemInsertTextRule.InsertAsSnippet,
+              insertTextRules:
+                monaco.languages.CompletionItemInsertTextRule.InsertAsSnippet,
             },
             {
               label: "let",
@@ -44,7 +45,8 @@ export const InputCode = ({ code, onCodeChange }) => {
               label: "function",
               kind: monaco.languages.CompletionItemKind.Keyword,
               insertText: "function ${1}() {${2}}",
-              insertTextRules: monaco.languages.CompletionItemInsertTextRule.InsertAsSnippet,
+              insertTextRules:
+                monaco.languages.CompletionItemInsertTextRule.InsertAsSnippet,
             },
           ];
 
