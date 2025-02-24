@@ -1,6 +1,6 @@
 .Output {
   width: 50%;
-  height: 100%; /* Ocupa el 100% del contenedor padre */
+  height: 100%;
   background-color: transparent;
   display: flex;
   flex-direction: row;
@@ -11,13 +11,13 @@
   display: flex;
   flex: 1;
   flex-direction: column;
-  overflow-y: auto; /* Agrega scroll vertical si el contenido excede la altura */
-  overflow-x: hidden; /* Evita el desplazamiento horizontal */
+  overflow-y: auto;
+  overflow-x: hidden;
   margin: 0;
   padding: 10px;
   line-height: 1.5;
-  font-size: 14px; /* Tamaño de fuente adecuado */
-  white-space: pre-wrap; /* Para que el texto respete los saltos de línea */
+  font-size: 14px;
+  white-space: pre-wrap;
   font-family:
     system-ui,
     -apple-system,
@@ -29,14 +29,14 @@
     Cantarell,
     "Open Sans",
     "Helvetica Neue",
-    sans-serif; /* Fuente de Monaco */
+    sans-serif;
   color: #d4d4d4;
-  background-color: #1e1e1e4f; /* Misma opacidad que el editor */
+  background-color: #1e1e1e4f;
 }
 
 .output-container {
   display: flex;
-  align-items: baseline; /* Alinea números y texto en la misma base */
+  align-items: baseline;
   width: 100%;
   height: 100%;
 }
@@ -52,9 +52,9 @@
 
 .line-numbers,
 .output-text {
-  line-height: 1.5; /* Mismo interlineado */
+  line-height: 1.5;
 }
 
 .line-numbers div {
-  min-width: 25px; /* Espacio consistente para números */
+  min-width: 25px;
 }

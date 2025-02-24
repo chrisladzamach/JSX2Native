@@ -1,9 +1,9 @@
 import { useContext } from "react";
-import { AppContext } from "../context/AppContext"; // Asegúrate de que la ruta es correcta
+import { AppContext } from "../context/AppContext";
 import { Sun, Moon } from "lucide-react";
 
 export const ThemeSwitcher = () => {
-  const { theme, toggleTheme } = useContext(AppContext); // Asegura que obtienes `theme` y `toggleTheme`
+  const { theme, toggleTheme } = useContext(AppContext);
 
   return (
     <button
