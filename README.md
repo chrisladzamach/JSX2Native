@@ -22,6 +22,10 @@ JSX2Native analyzes the JSX code of a React component and adapts it for use in R
 
 🔄️ This project is still under development, and improvements will continue to be added to expand compatibility and optimize conversion.🔄️
 
+## 📷 Image of project.
+![image](https://github.com/user-attachments/assets/83acad1d-d644-463f-9a33-e74ad3038810)
+
+
 **Es-lang**
 ---
 
@@ -47,6 +51,7 @@ JSX2Native analiza el código JSX de un componente de React y lo adapta para su 
 🔄️ Este proyecto aún está en desarrollo y se seguirán agregando mejoras para ampliar la compatibilidad y optimizar la conversión.🔄️
 
 ---
-
+## 📷 Imágen del proyecto.
+![image](https://github.com/user-attachments/assets/2d51dff5-acd5-4a69-82a6-c96f0536be1a)
 
 
